@@ -9,7 +9,7 @@ var process = {
 };
 
 /**
- * @type {object}
+ * @type {Object}
  */
 var module = {
     exports: {}
@@ -19,7 +19,7 @@ var module = {
 // Actual Screeps API
 
 /**
- * @type {object}
+ * @type {Object}
  */
 var Memory = {};
 
@@ -33,7 +33,7 @@ var Game = {
 
 var Creep = function() {
     /**
-     * @type {array<object>}
+     * @type {Array<Object>}
      */
     this.body = [{
         boost: {},
